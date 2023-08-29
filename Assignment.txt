@@ -1,0 +1,16 @@
+What is git,and what problem does it solve in the context of software development? 
+Git is a distributed version control system that helps manage changes in software development. It allows multiple developers to work on the same project simultaneously, tracks changes made to the code, and allows for easy collaboration and merging of code.
+
+Explain the difference between Git and Github? 
+Git is a version control system that helps manage changes in software development. It is a tool that allows developers to track and merge code changes. 
+
+GitHub, on the other hand, is a web-based platform that provides hosting for Git repositories. It adds additional features like collaboration tools, issue tracking, and pull requests, making it easier for teams to work together on projects using Git. So, Git is the underlying technology, \
+while GitHub is a platform built on top of Git.
+
+Describe the basic workflow for using Git for version control?
+
+What is a Git repository? How does it store and manage versionbs of files?
+What is a commit in Git? What information does a commit include?
+
+Explain the concept of branching in Git. How can branching be useful in collaborative development?
+
