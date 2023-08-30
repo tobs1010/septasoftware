@@ -1,19 +1,20 @@
 What is git,and what problem does it solve in the context of software development? 
-Git is a distributed version control system that helps manage changes in software development. It allows multiple developers to work on the same project simultaneously, tracks changes made to the code, and allows for easy collaboration and merging of code.
+Git is a version control system that helps manage changes in software development. It allows multiple developers to work on the same project simultaneously, tracks changes made to the code, and allows for easy collaboration and merging of code.
 
 Explain the difference between Git and Github? 
-Git is a version control system that helps manage changes in software development. It is a tool that allows developers to track and merge code changes. 
+Git is a version control system that helps manage changes in software development.
+It is a tool that allows developers to track and merge code changes. 
 
-GitHub, on the other hand, is a web-based platform that provides hosting for Git repositories. It adds additional features like collaboration tools, issue tracking, and pull requests, making it easier for teams to work together on projects using Git. So, Git is the underlying technology, \
-while GitHub is a platform built on top of Git.
+GitHub, on the other hand, is a web based platform that provides hosting for Git repositories. It adds additional features like collaboration tools, issue tracking, and pull requests, making it easier for teams to work together on projects using Git. So, Git is the underlying technology,while GitHub is a platform built on top of Git.
 
 Describe the basic workflow for using Git for version control?
-
-The basic workflow for using Git for version control typically involves four main steps:
-Start by cloning an existing Git repository to your local machine using the "git clone" command. This creates a local copy of the repository that you can work with.
-Create a new branch using the "git branch" command. This allows you to work on a specific feature or fix without affecting the main codebase.
-Make changes to the code and use the "git add" command to stage the changes. Then, use the "git commit" command to save the changes to your local branch with a descriptive message.
-Once you are done with your changes, use the "git push" command to upload your commits to the remote repository.
+The basic workflow for using Git for version control typically involves:
+Start by creating a new repository
+Follow with the command git init
+Use the "git add ." command to stage the changes and files to the repository
+Then, use the "git commit -m'message'" command to save the changes to your local branch with a descriptive message.
+Check the status of your repository using "git status"
+Once you are done with your changes, use the "git push -u origin master " command to upload your commits to the remote repository.
 
 
 What is a Git repository? How does it store and manage versions of files?
